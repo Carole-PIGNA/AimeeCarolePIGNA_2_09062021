@@ -1,0 +1,85 @@
+
+
+* {      /* instruction pour tous les elements */
+    margin:0;  /* on met tous les réglages a 0 pour commencer */
+    padding:0; /* on met tous les réglages a 0 pour commencer */
+    box-sizing: border-box;
+    list-style-type:none; /* enleve les puces qui se metent par defaut devant les listes*/
+
+}
+
+
+body {
+    font-family: 'Raleway', sans-serif;
+    padding:4px 30px 0 30px;
+    
+}
+header{ 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.menu{
+    position: relative;
+    top: 10px;
+}   
+#menu li 
+{
+   display:inline;
+   padding:40px 40px 4px 10px;
+   
+}
+h2
+{
+    font-size:large;
+    font-weight:bolder;
+    letter-spacing:normal;
+}
+p{
+    font-size:small;
+    font-weight:normal;
+    letter-spacing:normal;
+}
+
+form{
+
+    width: 380px;
+    height: 40px;
+    border:0px solid #0065FC;
+    background:#0065FC;
+    border-radius: 50px;
+    padding: 0px 0px 0px 35px;
+
+}  
+/*
+form i {
+    height: 40px;
+    width:50px;
+    border:0px solid #F2F2F2;
+    background:#F2F2F2;
+    border-radius:50px ;
+    padding: 0px 0px 0px 0px;
+    
+
+} */
+#ville{
+    width: 200px;
+    height: 40px;
+}  
+
+.button{
+    /*width: 110px;
+    height: 40px;*/
+    border:transparent;
+    color:white;
+    background:#0065FC;
+    letter-spacing: 2px;  
+    padding: 10px 10px;
+    /*
+    display:inline-block;
+    letter-spacing: 2px;
+    cursor:pointer;
+    font:700 0.75rem "Source Sans Pro"; /* des fois le style n'est pas pris partout" */
+    /*transition:0.3s;*/
+}
