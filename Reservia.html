@@ -28,14 +28,15 @@
     />
     <!-- -------------------------------------- -->
     <link rel="stylesheet" href="style.css" />
-
   </head>
   <body>
     <!-- ---------------------------------------------------->
     <header>
       <!-- Nom du site à droite  et menu en haut a gauche -->
-      <div> <!-- Logo -->
-        <img src = "ressources/images/logo/Reservia.svg" alt="logo"/>  <!-- le mieux  est de le mettre dans CSS-->
+      <div>
+        <!-- Logo -->
+        <img src="ressources/images/logo/Reservia.svg" alt="logo" />
+        <!-- le mieux  est de le mettre dans CSS-->
       </div>
       <div class="menu">
         <ul id="menu">
@@ -54,35 +55,37 @@
       <p>En plein centre ville ou en pleine nature</p>
 
       <form action="#">
-        <i class="fas fa-map-marker-alt"></i>
+        <label for="ville"> <i class="fas fa-map-marker-alt"></i></label>
         <input
           type="text"
           name="ville"
           id="ville"
-          maxlength="5"
+          maxlength="20"
           placeholder="Marseille,France"
         />
         <input type="submit" class="button" value="Rechercher" />
       </form>
-      <h3>Filtres</h3>
-      <ul>
-        <li>
-          <i class="fas fa-money-bill-wave-alt"></i
-          ><input type="submit" class="filtre" value="Economique" />
-        </li>
-        <li>
-          <i class="fas fa-child"></i
-          ><input type="submit" class="filtre" value="Familial" />
-        </li>
-        <li>
-          <i class="fas fa-heart"></i
-          ><input type="submit" class="filtre" value="Romantique" />
-        </li>
-        <li>
-          <i class="fas fa-dog"></i
-          ><input type="submit" class="filtre" value="Animaux autorisés" />
-        </li>
-      </ul>
+      <div class="filtres">
+        <ul id="listefiltres">
+          <li>Filtres</li>
+          <li>
+            <i class="fas fa-money-bill-wave-alt"></i
+            ><input type="submit" class="filtre" value="Economique" />
+          </li>
+          <li>
+            <i class="fas fa-child"></i
+            ><input type="submit" class="filtre" value="Familial" />
+          </li>
+          <li>
+            <i class="fas fa-heart"></i
+            ><input type="submit" class="filtre" value="Romantique" />
+          </li>
+          <li>
+            <i class="fas fa-dog"></i
+            ><input type="submit" class="filtre" value="Animaux autorisés" />
+          </li>
+        </ul>
+      </div>
       <p>
         <i class="fas fa-info"></i> Plus de 500 logements sont disponibles dans
         cette ville
