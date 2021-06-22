@@ -15,9 +15,9 @@ a:visited{
 body {
     font-family: 'Raleway', sans-serif;
     padding:4px 30px 0px 30px;
-    
-    
+
     text-align: justify;
+    line-height:30px;
 
     
 }
@@ -25,6 +25,7 @@ header{  /*  je mets en ligne le logo et le menu*/
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+
 
 }
 .menu{ /* tout le bloc menu est  */
@@ -53,11 +54,6 @@ p{
     margin-bottom: 10px;
 }
 
-a,
-a:visited{
-    color:black;
-    text-decoration: none;
-} 
 form i{
     padding: 10px 0px 10px 20px;
     width:50px;
@@ -109,6 +105,7 @@ form i{
     font-weight:bolder;
     display:inline;
   justify-content: space-around;
+  margin-right:20px;
  
   
 }
@@ -162,42 +159,38 @@ form i{
 
 .cannebiere{
    
-   height:150px;
-   width:100%;
-   border:5px solid white;
-    border-radius:10px ;
-    border-bottom-width: 60px;
+   height:100px;
+   width:200px;
+
+    
    
     background: url(ressources/images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg)top/cover;
 
-    margin:10px;
+  
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 
 } 
 .duport{
    
-    height:150px;
-    width:100%;
-    border:5px solid white;
-    border-radius:10px ;
-    border-bottom-width: 60px;
+    height:100px;
+   width:200px;
    
-     background:url(ressources/images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg) left/cover;
-     margin:10px;
+
+   
+     background:url(ressources/images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg) left/cover;
+   
      border-top-left-radius: 10px;
     border-top-right-radius: 10px;
  } 
  .mouettes{
    
-    height:150px;
-    width:100%;
-    border:5px solid white;
-    border-radius:10px ;
-    border-bottom-width: 60px;
+    height:100px;
+   width:200px;
+   
     
-     background:url(ressources/images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg) left/cover;
-     margin:10px;
+     background:url(ressources/images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg) left/cover;
+    
      border-top-left-radius: 10px;
     border-top-right-radius: 10px;
  
@@ -205,42 +198,37 @@ form i{
 
   .mer{
    
-   height:150px;
-   width:100%;
-   border:5px solid white;
-    border-radius:10px ;
-    border-bottom-width: 60px;
+    height:100px;
+   width:200px;
+   
   
-    background:url(ressources/images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg) left/cover;
-    margin:10px;
+  
+    background:url(ressources/images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg) left/cover;
+   
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 
 }   
 .panier{
    
-    height:150px;
-    width:100%;
-    border:5px solid white;
-    border-radius:10px ;
-    border-bottom-width: 60px;
+   height:100px;
+   width:200px;
+
   
-     background:url(ressources/images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg) left/cover;
-     margin:10px;
+     background:url(ressources/images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg) left/cover;
+     
      border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 
  } 
  .amina{
    
-    height:150px;
-    width:100%;
-    border:5px solid white;
-    border-radius:10px ;
-    border-bottom-width: 60px;
+    height:100px;
+   width:200px;
+  
     
-     background:url(ressources/images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg) left/cover;
-     margin:10px;
+     background:url(ressources/images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg) left/cover;
+     
      border-top-left-radius: 10px;
     border-top-right-radius: 10px;
  } 
@@ -254,11 +242,19 @@ form i{
 
 } 
 
+#titre_chart{ 
+    display:flex;
+    justify-content: space-between;
+    margin:10px;
+
+
+    }
+
 .soleil{
     height:120px;
    width:150px;
     
-     background:url(ressources/images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg) left/cover;
+     background:url(ressources/images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg) left/cover;
      margin:10px;
 
      
@@ -275,7 +271,7 @@ form i{
     width:150px;
     
    
-    background:url(ressources/images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg) left/cover;
+    background:url(ressources/images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg) left/cover;
     margin:10px;
 
     border-top-left-radius: 10px;
@@ -288,7 +284,7 @@ form i{
 height:120px;
 width:150px;
 
- background:url(ressources/images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg) left/cover;
+ background:url(ressources/images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg) left/cover;
 
  margin:10px;
   
@@ -299,8 +295,29 @@ width:150px;
 
 .description{
     text-align:left;
+    padding:10px;
     } 
 
+.nomHotel{
+
+    font-weight:bolder;
+    
+    
+    } 
+
+.bloccannebiere, .blocduport,.blocmouettes,.blocmer,.blocpanier,.blocamina{
+
+    display:flex;
+    flex-direction:column;
+    align-items:left;
+    background-color:white;
+    padding:5px;
+    border-radius:10px ;
+    margin-left:20px;
+    margin-bottom:20px;
+
+
+   } 
 
  .blocsoleil, .bloceau, .blocbleu{
     display:flex;
@@ -312,11 +329,23 @@ width:150px;
      
     } 
 
+.etoiles{
+    display:flex;
+
+    } 
+    .bluestar{
+        color:#0065FC;
+        }
+
+    .greystar{
+        color:#F2F2F2;
+        }
+
 .heberg{
     
     background-color:#F2F2F2;
     border-radius: 10px;
-    padding:30px;
+    padding:10px;
     width:60%;
     
     
@@ -344,6 +373,165 @@ width:150px;
 
 
 /* ***************  Activités  ******************************* */
+.imgvieuxport{
+    height:370px;
+   width:250px;
+   
+    background: url(ressources/images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg)top/cover;
+ 
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+    background-color:white;
+    
+    margin-bottom:20px;
+    box-shadow:5px 5px 5px #F2F2F2;
+
+    } 
+
+    .grandeimage{
+        display:flex;
+        flex-direction:column;
+        display:flex;
+    flex-direction:column;
+    align-items:center;
+    background-color:white;
+    padding:5px;
+    border-radius:10px ;
+    margin-left:10px;
+    margin-bottom:10px;
+    box-shadow:5px 5px 5px #F2F2F2;
+        } 
+.pomegues{
+    height:200px;
+   width:250px;
+   
+   
+    background: url(ressources/images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg)top/cover;
+   
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    
+   
+   
+    } 
+.frioul{
+    height:130px;
+   width:250px;
+
+    background: url(ressources/images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg)top/cover;
+  
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  
+  
+    } 
+
+
+    .petiteimage{
+        display:flex;
+        flex-direction:column;
+        display:flex;
+    flex-direction:column;
+    align-items:center;
+    background-color:white;
+    padding:5px;
+    border-radius:10px ;
+    margin-left:10px;
+    margin-bottom:10px;
+    box-shadow:5px 5px 5px #F2F2F2;
+        } 
+.calanques{
+    height:370px;
+   width:250px;
+
+    background: url(ressources/images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg)top/cover;
+   
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+      background-color:white;  
+    margin-bottom:20px;
+    box-shadow:5px 5px 5px #F2F2F2;
+   
+    } 
+.lagarde{
+    height:150px;
+   width:250px;
+
+    background: url(ressources/images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg)top/cover;
+  
+  
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    } 
+.longchamp{
+    height:180px;
+   width:250px;
+   
+    background: url(ressources/images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg)top/cover;
+  
+
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    } 
+
+    .descriptionbis{
+    text-align:left;
+    padding:10px;
+    font-weight:bolder;
+    } 
+
+.activite{
+    display:flex;
+    flex-direction:column;
+    
+
+    } 
+
+    .images{
+        display:flex;
+        justify-content:space-between;
+        margin-left:5px;
+        margin-right:5px;
+        
+         } 
+
+  
+
+
+
+/* ***************  A propos  ******************************* */
+
+.foot{
+    padding:0px;
+    height:200px;
+    width:100%;
+    display:flex;
+    background-color:#F2F2F2;
+    
+    } 
+
+.cola{
+    margin-left:30px;
+    margin-right:200px;
+    margin-top:20px;
+    
+
+      } 
+
+.colb  {
+        margin-right:200px;
+        margin-top:20px;
+
+
+      } 
+
+ .colc  {
+
+        margin-top:20px;
+
+      } 
+
 
 
 

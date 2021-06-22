@@ -29,7 +29,7 @@
     <!-- -------------------------------------- -->
     <link rel="stylesheet"  type="text/css" href="style.css" />
   </head>
-  <body>
+  
     <!-- ---------------------------------------------------->
     <header>
       <!-- Nom du site à droite  et menu en haut a gauche -->
@@ -46,7 +46,7 @@
         </ul>
       </div>
     </header>
-
+<body>  
     <!-- ---------------------------------------------------->
 
     <section class="recherche">
@@ -97,32 +97,146 @@
       <div class="heberg">
         <h2>Hébergements à Marseille</h2>
         <div id="ligne1"> 
-          <!-- ce parent n'est peut etre pas necessaire??? A faire valider-->
-          <div class="cannebiere"></div>
-          <!-- Auberge la Cannebiere-->
-          <div class="duport"></div>
-          <!-- Hotel duport-->
-          <div class="mouettes"> </div>
-          <!-- Hotel Les mouettes-->
+          
+          <div class="bloccannebiere"><!-- Auberge la Cannebiere-->
+
+            <div class="cannebiere"> </div>
+            <div class="description">
+                <p class="nomHotel"> Auberge de la Cannebière</p>
+                <p>Nuit à partir de 25 euros</p>
+                
+                <div class="etoiles" >
+                
+                    <p class="bluestar"><i class="fas fa-star"></i></p>
+                    <p class="bluestar"><i class="fas fa-star"></i></p>
+                    <p class="bluestar"><i class="fas fa-star"></i></p>
+                    <p class="bluestar"><i class="fas fa-star"></i></p>
+                    <p class="greystar"><i class="fas fa-star"></i></p>
+                    
+                </div>
+                
+
+            </div>
+          </div>
+          
+          <div class="blocduport"><!-- Hotel duport-->
+
+            <div class="duport"></div>
+            <div class="description">
+                <p class="nomHotel"> Hôtel du port</p>
+                <p>Nuit à partir de 52 euros</p>
+                 <div class="etoiles" >
+                
+                    <p class="bluestar"><i class="fas fa-star"></i></p>
+                    <p class="bluestar"><i class="fas fa-star"></i></p>
+                    <p class="bluestar"><i class="fas fa-star"></i></p>
+                    <p class="bluestar"><i class="fas fa-star"></i></p>
+                    <p class="bluestar"><i class="fas fa-star"></i></p>
+                    
+                </div>
+            </div>
+            
+          </div>
+
+        <div class="blocmouettes"><!-- Hotel Les mouettes-->
+            <div class="mouettes"> </div>
+            <div class="description">
+                <p class="nomHotel"> Hôtel les mouettes</p>
+                <p>Nuit à partir de 76 euros</p>
+                <div class="etoiles" >
+                
+                    <p class="bluestar"><i class="fas fa-star"></i></p>
+                    <p class="bluestar"><i class="fas fa-star"></i></p>
+                    <p class="bluestar"><i class="fas fa-star"></i></p>
+                    <p class="bluestar"><i class="fas fa-star"></i></p>
+                    <p class="greystar"><i class="fas fa-star"></i></p>
+                    
+                </div>
+                
+            </div>
+
+          </div>
         </div>
         <div id="ligne2">
-          <!-- ce parent n'est peut etre pas necessaire ????A faire valider-->
-          <div class="mer"></div>
-          <!-- Hotel de la mer -->
-          <div class="panier"></div>
-          <!-- Auberge Le panier-->
-          <div class="amina"></div>
-          <!-- Hotel chez Amina-->
+          
+          <div class="blocmer"><!-- Hotel de la mer -->
+            <div class="mer"></div>
+            <div class="description">
+                <p class="nomHotel"> Hôtel de la mer</p>
+                <p>Nuit à partir de 46 euros</p>
+                <div class="etoiles" >
+                
+                    <p class="bluestar"><i class="fas fa-star"></i></p>
+                    <p class="bluestar"><i class="fas fa-star"></i></p>
+                    <p class="bluestar"><i class="fas fa-star"></i></p>
+                    <p class="greystar"><i class="fas fa-star"></i></p>
+                    <p class="greystar"><i class="fas fa-star"></i></p>
+                    
+                </div>
+                
+            </div>
+
+            </div>
+
+          <div class="blocpanier"><!-- Auberge Le panier-->
+            <div class="panier"></div>
+            <div class="description">
+                <p class="nomHotel"> Auberge Le Panier</p>
+                <p>Nuit à partir de 23 euros</p>
+                <div class="etoiles" >
+                
+                    <p class="bluestar"><i class="fas fa-star"></i></p>
+                    <p class="bluestar"><i class="fas fa-star"></i></p>
+                    <p class="bluestar"><i class="fas fa-star"></i></p>
+                    <p class="bluestar"><i class="fas fa-star"></i></p>
+                    <p class="greystar"><i class="fas fa-star"></i></p>
+                    
+                </div>
+                
+            </div>
+          </div>
+          
+
+          <div class="blocamina"><!-- Hotel chez Amina-->
+        
+            <div class="amina"></div>
+             <div class="description">
+                <p class="nomHotel"> Hôtel Chez Amina</p>
+                <p>Nuit à partir de 96 euros</p>
+                  <div class="etoiles" >
+                
+                    <p class="bluestar"><i class="fas fa-star"></i></p>
+                    <p class="bluestar"><i class="fas fa-star"></i></p>
+                    <p class="bluestar"><i class="fas fa-star"></i></p>
+                    <p class="bluestar"><i class="fas fa-star"></i></p>
+                    <p class="bluestar"><i class="fas fa-star"></i></p>
+                    
+                </div>
+            </div>
+          
+          </div>
         </div>
       </div>
       <aside class="pop">
-        <h2>Les plus populaires <i class="fas fa-chart-line"></i></h2>
+       <div  id="titre_chart">
+        <h2>Les plus populaires </h2>
+        <p><i class="fas fa-chart-line"></i></p>
+        </div>
         <div class="blocsoleil"> <!-- Hotel le soleil du matin-->
             <div class="soleil"></div>
             <div class="description">
         
-                <p> Hotel le soleil du matin </p>
+                <p class="nomHotel"> Hotel le soleil du </br> matin </p>
                 <p> Nuit à partir de 128euros </p>
+                 <div class="etoiles" >
+                
+                    <p class="bluestar"><i class="fas fa-star"></i></p>
+                    <p class="bluestar"><i class="fas fa-star"></i></p>
+                    <p class="bluestar"><i class="fas fa-star"></i></p>
+                    <p class="bluestar"><i class="fas fa-star"></i></p>
+                    <p class="bluestar"><i class="fas fa-star"></i></p>
+                    
+                </div>
         
             </div>
         </div>
@@ -130,16 +244,34 @@
        
              <div class="eau"></div>
              <div class="description">
-                <p> Au coeur de l'eau chambre d'hôtes </p>
+                <p class="nomHotel"> Au coeur de l'eau </br> Chambres d'hôtes </p>
                 <p> Nuit à partir de 71euros </p>
+                <div class="etoiles" >
+                
+                    <p class="bluestar"><i class="fas fa-star"></i></p>
+                    <p class="bluestar"><i class="fas fa-star"></i></p>
+                    <p class="bluestar"><i class="fas fa-star"></i></p>
+                    <p class="bluestar"><i class="fas fa-star"></i></p>
+                    <p class="greystar"><i class="fas fa-star"></i></p>
+                    
+                </div>
         
             </div>
         </div>
         <div class="blocbleu"><!-- Hotel tout bleu .. -->
             <div class="bleu"></div>
             <div class="description">
-                <p> Hotel tout bleu et Blanc </p>
+                <p class="nomHotel"> Hotel tout bleu et </br>Blanc </p>
                 <p> Nuit à partir de 68 euros </p>
+                <div class="etoiles" >
+                
+                    <p class="bluestar"><i class="fas fa-star"></i></p>
+                    <p class="bluestar"><i class="fas fa-star"></i></p>
+                    <p class="bluestar"><i class="fas fa-star"></i></p>
+                    <p class="bluestar"><i class="fas fa-star"></i></p>
+                    <p class="greystar"><i class="fas fa-star"></i></p>
+                    
+                </div>
         
             </div>
         </div>
@@ -149,44 +281,70 @@
     <section class="activite">
       <!-- Activités -->
       <h2>Activités à Marseille</h2>
-      <div></div>
-      <!-- Vieux port-->
-      <div>
-        <div></div>
-        <!--Fort de Pomègues-->
-        <div></div>
-        <!-- Iles de Frioul-->
+      <div class="images">
+      <div class="grandeimage">
+        <div class="imgvieuxport"></div>
+        <div class="descriptionbis"> Vieux Port </div>
+      
       </div>
-      <div></div>
-      <!-- Parc national des calanques-->
-      <div>
-        <div></div>
-        <!-- Notre Dame de la garde-->
-        <div></div>
-        <!-- Parc Longchamp-->
+      <!-- Vieux port-->
+      <div class="col1">
+        <div class="petiteimage">
+            <div class="pomegues"></div> <!--Fort de Pomègues-->
+            <div class="descriptionbis"> Fort de Pomègues </div>
+        </div>
+            
+        <div class="petiteimage">
+            <div class="frioul"></div><!-- Iles de Frioul-->
+             <div class="descriptionbis"> Iles de Frioul </div>
+        </div>
+      </div>
+      <div class="grandeimage"><!-- Parc national des calanques-->
+        <div class="calanques"></div>
+        <div class="descriptionbis"> Parc national des calanques</div>
+      </div>
+      
+      <div class="col2">
+        <div class="petiteimage">
+            <div class="lagarde"></div><!-- Notre Dame de la garde-->
+            <div class="descriptionbis"> Notre-Dame-de-la-garde </div>
+        </div>
+        <div class="petiteimage">
+             <div class=longchamp></div> <!-- Parc Longchamp-->
+             <div class="descriptionbis"> Parc Longchamp </div>
+        </div>
+       
+      </div>
+
       </div>
     </section>
-
+</body>
     <!-- ---------------------------------------------------->
-    <footer>
+    <footer class="foot">
       <!--  pied de page (chartes et compagnies)-->
-      <h3>A propos</h3>
-      <ul>
-        <li><a href="#">Fonctionnement du site</a></li>
-        <li><a href="#">Conditions générales de vente</a></li>
-        <li><a href="#">Données et confidentialité</a></li>
-      </ul>
+      <div class="cola">
+        <h3>A propos</h3>
+        <ul>
+         <li><a href="#">Fonctionnement du site</a></li>
+         <li><a href="#">Conditions générales de vente</a></li>
+         <li><a href="#">Données et confidentialité</a></li>
+        </ul>
+      </div>
+      <div class="colb">
       <h3>Nos hébergements</h3>
-      <ul>
-        <li><a href="#">Charte qualité</a></li>
-        <li><a href="#">Soumettre votre hôtel</a></li>
-      </ul>
+        <ul>
+         <li><a href="#">Charte qualité</a></li>
+         <li><a href="#">Soumettre votre hôtel</a></li>
+        </ul>
+      </div>
+      <div class="colc">
       <h3>Assistance</h3>
-      <ul>
-        <li><a href="#">Centre d'aide</a></li>
-        <li><a href="#">Nous contacter</a></li>
-      </ul>
+         <ul>
+          <li><a href="#">Centre d'aide</a></li>
+         <li><a href="#">Nous contacter</a></li>
+         </ul>
+        </div>
     </footer>
     <!-- ---------------------------------------------------->
-  </body>
+  
 </html>
