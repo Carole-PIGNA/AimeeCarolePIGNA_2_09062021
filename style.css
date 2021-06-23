@@ -17,7 +17,7 @@ body {
     padding:4px 30px 0px 30px;
 
     text-align: justify;
-    line-height:30px;
+    line-height:20px;
 
     
 }
@@ -28,16 +28,26 @@ header{  /*  je mets en ligne le logo et le menu*/
 
 
 }
-.menu{ /* tout le bloc menu est  */
-    position: relative;
+#menu{ /* tout le bloc menu est  */
+    
+    display:flex;
+    justify-content:space-between;
     top: 10px;
-}   
-#menu li 
-{
-   display:inline;
    padding:40px 40px 4px 10px;
    
-}
+}   
+
+#menu1{ 
+    margin-right:30px;
+    
+    } 
+#menu2{ 
+    margin-right:30px;
+    } 
+#menu3{ 
+    
+    } 
+
 h2
 {
     font-size:large;
@@ -45,6 +55,7 @@ h2
     letter-spacing:normal;
     margin-bottom: 10px;
     margin-left:10px;
+    
 
 }
 p{
@@ -89,26 +100,51 @@ form i{
    
 }
 
-.filtres {
+#lignefiltres{
+    display:flex;
+    margin-top:20px;
+    margin-bottom:20px;
 
-    position:relative;
-    display: flex;
-    top:10px;
-    margin-bottom: 30px;
-
-     
-  }
-
-#listefiltres li{
-
-    
+    }
+#titrefiltre{
+    margin-top:5px;
     font-weight:bolder;
-    display:inline;
-  justify-content: space-around;
-  margin-right:20px;
- 
-  
-}
+
+    }
+
+
+#listefiltres{
+    display:flex;
+    margin-left:20px;
+
+    }
+.filtre{
+    position:relative;
+    display:flex;
+    margin-left:10px;
+    border:1px solid #F2F2F2;
+    border-left:transparent;
+    border-radius:25px ;
+    
+
+    }
+
+
+.nomfiltre{
+        
+        margin-left:10px;
+        margin-right:20px;
+        margin-top:5px;
+        font-weight:bolder;
+
+
+    }
+
+
+
+
+
+
 
 #listefiltres i{  /*  mise en forme icones*/
     
@@ -118,30 +154,13 @@ form i{
     height:40px;
     border-radius: 50px;
     display:inline-flex;
-    
+    /*margin-left:10px;*/
     justify-content: center;
     align-items: center;
    
 
 }
 
-.filtre{ 
-
-    
-    background-color:white;
-    height:40px;
-    border-left: transparent;
-   
-    width:auto;
-    min-width:100px;
-    height:40px;
-    border-color:#F2F2F2 ;
-    border-width: 0.01px;
-    border-top-right-radius:25px ;
-    border-bottom-right-radius: 25px;
-    border-left: transparent;
-    top:50px;
-} 
 
 #info{
     color:#0065FC;
@@ -156,6 +175,13 @@ form i{
     align-items: center;
 
 } 
+
+.recherche p{
+
+    margin-bottom:20px;
+
+    } 
+
 
 .cannebiere{
    
@@ -233,6 +259,10 @@ form i{
     border-top-right-radius: 10px;
  } 
 
+ #ligne2{ 
+     margin-bottom:20px;
+     } 
+
 #ligne1, #ligne2{ 
     /*width:auto; */        
     display: flex;
@@ -251,11 +281,11 @@ form i{
     }
 
 .soleil{
-    height:120px;
+    height:130px;
    width:150px;
     
      background:url(ressources/images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg) left/cover;
-     margin:10px;
+     margin:5px;
 
      
      border-top-left-radius: 10px;
@@ -267,12 +297,12 @@ form i{
 
 
 .eau{
-    height:120px;
+    height:130px;
     width:150px;
     
    
     background:url(ressources/images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg) left/cover;
-    margin:10px;
+    margin:5px;
 
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;  
@@ -281,12 +311,12 @@ form i{
 
 
 .bleu{
-height:120px;
+height:130px;
 width:150px;
 
  background:url(ressources/images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg) left/cover;
 
- margin:10px;
+ margin:5px;
   
   border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;      
@@ -314,7 +344,8 @@ width:150px;
     padding:5px;
     border-radius:10px ;
     margin-left:20px;
-    margin-bottom:20px;
+    margin-bottom:2px;
+    margin-top:10px;
 
 
    } 
@@ -325,7 +356,9 @@ width:150px;
     background-color:white;
     padding-right:5px;
     border-radius:10px ;
-    margin-top:10px;
+    margin-bottom:10px;
+    margin-top:5px;
+
      
     } 
 
@@ -345,7 +378,7 @@ width:150px;
     
     background-color:#F2F2F2;
     border-radius: 10px;
-    padding:10px;
+    padding:20px;
     width:60%;
     
     
@@ -356,12 +389,12 @@ width:150px;
     
     background-color:#F2F2F2;
     border-radius: 10px;
-    padding:30px;
+    padding:20px;
     width:35%;
     
     
 } 
-.hebergement{
+#hebergement{
     
     display: flex;
     justify-content: space-between;
@@ -396,9 +429,9 @@ width:150px;
     flex-direction:column;
     align-items:center;
     background-color:white;
-    padding:5px;
+    
     border-radius:10px ;
-    margin-left:10px;
+    margin-left:5px;
     margin-bottom:10px;
     box-shadow:5px 5px 5px #F2F2F2;
         } 
@@ -437,7 +470,7 @@ width:150px;
     background-color:white;
     padding:5px;
     border-radius:10px ;
-    margin-left:10px;
+    margin-left:5px;
     margin-bottom:10px;
     box-shadow:5px 5px 5px #F2F2F2;
         } 
@@ -481,9 +514,10 @@ width:150px;
     font-weight:bolder;
     } 
 
-.activite{
+#activite{
     display:flex;
     flex-direction:column;
+    margin-top:30px;
     
 
     } 
@@ -508,6 +542,7 @@ width:150px;
     width:100%;
     display:flex;
     background-color:#F2F2F2;
+     line-height:30px;
     
     } 
 
@@ -538,7 +573,7 @@ width:150px;
 /* **************  Responsive *******   */
 
 @media screen and (max-width:650px){
-.hebergement{
+#hebergement{
 
 display:block;
 
