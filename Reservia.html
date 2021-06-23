@@ -38,13 +38,13 @@
         <img src="ressources/images/logo/Reservia.svg" alt="logo" />
         <!-- le mieux  est de le mettre dans CSS-->
       </div>
-      <div class="menu">
-        <ul id="menu">
-          <li><a href="#">Hébergements</a></li>
-          <li><a href="#">Activités</a></li>
-          <li><a href="#">S'inscrire</a></li>
-        </ul>
-      </div>
+      
+        <div id="menu">
+          <div id="menu1"><a href="#hebergement">Hébergements</a></div>
+          <div id="menu2"><a href="#activite">Activités</a></div>
+          <div id="menu3"><a href="#">S'inscrire</a></div>
+        </div>
+      
     </header>
 <body>  
     <!-- ---------------------------------------------------->
@@ -65,26 +65,27 @@
         />
         <input type="submit" class="button" value="Rechercher" />
       </form>
-      <div class="filtres">
-        <ul id="listefiltres">
-          <li>Filtres</li>
-          <li>
-            <i class="fas fa-money-bill-wave-alt"></i
-            ><input type="button" class="filtre" value="Economique" />
-          </li>
-          <li>
-            <i class="fas fa-child"></i
-            ><input type="button" class="filtre" value="Familial" />
-          </li>
-          <li>
-            <i class="fas fa-heart"></i
-            ><input type="button" class="filtre" value="Romantique" />
-          </li>
-          <li>
-            <i class="fas fa-dog"></i
-            ><input type="button" class="filtre" value="Animaux autorisés" />
-          </li>
-        </ul>
+      <div id="lignefiltres">
+        <div id="titrefiltre">Filtres</div>
+        <div id="listefiltres">
+            <div class="filtre">
+                <div><i class="fas fa-money-bill-wave-alt"></i></div>
+                <div class="nomfiltre">Economique</div>
+            </div>
+            <div class="filtre">
+                <div><i class="fas fa-child"></i></div>
+                <div class="nomfiltre">Familial</div>
+            </div>
+            <div class="filtre">
+                <div><i class="fas fa-heart"></i></div>
+                <div class="nomfiltre">Romantique</div>
+            </div>
+            <div class="filtre">
+                <div><i class="fas fa-dog"></i></div>
+                <div class="nomfiltre">Animaux autorisés</div>
+            </div>
+
+        </div>
       </div>
       <p>
         <a action="#" id="info"><i class="fas fa-info"></i></a> Plus de 500 logements sont disponibles dans
@@ -92,18 +93,18 @@
       </p>
     </section>
     <!-- ---------------------------------------------------->
-    <section class="hebergement">
+    <section id="hebergement">
       <!-- Hebergements -->
       <div class="heberg">
         <h2>Hébergements à Marseille</h2>
         <div id="ligne1"> 
           
-          <div class="bloccannebiere"><!-- Auberge la Cannebiere-->
+           <a href="#"><div class="bloccannebiere"><!-- Auberge la Cannebiere-->
 
-            <div class="cannebiere"> </div>
+           <div class="cannebiere"> </div>
             <div class="description">
                 <p class="nomHotel"> Auberge de la Cannebière</p>
-                <p>Nuit à partir de 25 euros</p>
+                <p>Nuit à partir de 25€</p>
                 
                 <div class="etoiles" >
                 
@@ -117,14 +118,16 @@
                 
 
             </div>
+            </a>
+
           </div>
           
-          <div class="blocduport"><!-- Hotel duport-->
+          <a href="#"><div class="blocduport"><!-- Hotel duport-->
 
             <div class="duport"></div>
             <div class="description">
                 <p class="nomHotel"> Hôtel du port</p>
-                <p>Nuit à partir de 52 euros</p>
+                <p>Nuit à partir de 52€</p>
                  <div class="etoiles" >
                 
                     <p class="bluestar"><i class="fas fa-star"></i></p>
@@ -135,14 +138,14 @@
                     
                 </div>
             </div>
-            
+            </a>
           </div>
 
-        <div class="blocmouettes"><!-- Hotel Les mouettes-->
-            <div class="mouettes"> </div>
+        <a href="#"> <div class="blocmouettes"><!-- Hotel Les mouettes-->
+             <div class="mouettes"> </div>
             <div class="description">
                 <p class="nomHotel"> Hôtel les mouettes</p>
-                <p>Nuit à partir de 76 euros</p>
+                <p>Nuit à partir de 76€</p>
                 <div class="etoiles" >
                 
                     <p class="bluestar"><i class="fas fa-star"></i></p>
@@ -156,14 +159,15 @@
             </div>
 
           </div>
+          </a>
         </div>
         <div id="ligne2">
           
-          <div class="blocmer"><!-- Hotel de la mer -->
+          <a href="#">  <div class="blocmer"><!-- Hotel de la mer -->
             <div class="mer"></div>
             <div class="description">
                 <p class="nomHotel"> Hôtel de la mer</p>
-                <p>Nuit à partir de 46 euros</p>
+                <p>Nuit à partir de 46€</p>
                 <div class="etoiles" >
                 
                     <p class="bluestar"><i class="fas fa-star"></i></p>
@@ -177,12 +181,12 @@
             </div>
 
             </div>
-
-          <div class="blocpanier"><!-- Auberge Le panier-->
-            <div class="panier"></div>
+            </a>
+          <a href="#"> <div class="blocpanier"><!-- Auberge Le panier-->
+             <div class="panier"></div> 
             <div class="description">
                 <p class="nomHotel"> Auberge Le Panier</p>
-                <p>Nuit à partir de 23 euros</p>
+                <p>Nuit à partir de 23€</p>
                 <div class="etoiles" >
                 
                     <p class="bluestar"><i class="fas fa-star"></i></p>
@@ -195,14 +199,14 @@
                 
             </div>
           </div>
-          
+          </a>
 
-          <div class="blocamina"><!-- Hotel chez Amina-->
+          <a href="#"> <div class="blocamina"><!-- Hotel chez Amina-->
         
-            <div class="amina"></div>
+             <div class="amina"></div>
              <div class="description">
                 <p class="nomHotel"> Hôtel Chez Amina</p>
-                <p>Nuit à partir de 96 euros</p>
+                <p>Nuit à partir de 96€</p>
                   <div class="etoiles" >
                 
                     <p class="bluestar"><i class="fas fa-star"></i></p>
@@ -215,19 +219,21 @@
             </div>
           
           </div>
+          </a>
         </div>
+        <h2>Afficher plus</h2> 
       </div>
       <aside class="pop">
        <div  id="titre_chart">
         <h2>Les plus populaires </h2>
         <p><i class="fas fa-chart-line"></i></p>
         </div>
-        <div class="blocsoleil"> <!-- Hotel le soleil du matin-->
-            <div class="soleil"></div>
+        <a href="#"> <div class="blocsoleil"> <!-- Hotel le soleil du matin-->
+             <div class="soleil"></div>
             <div class="description">
         
                 <p class="nomHotel"> Hotel le soleil du </br> matin </p>
-                <p> Nuit à partir de 128euros </p>
+                <p> Nuit à partir de 128€ </p>
                  <div class="etoiles" >
                 
                     <p class="bluestar"><i class="fas fa-star"></i></p>
@@ -239,13 +245,15 @@
                 </div>
         
             </div>
-        </div>
-        <div class="bloceau"><!-- Au coeur de l'eau .... -->
+            
+        </div></a>
+        
+       <a href="#"> <div class="bloceau"><!-- Au coeur de l'eau .... -->
        
-             <div class="eau"></div>
+              <div class="eau"></div>
              <div class="description">
                 <p class="nomHotel"> Au coeur de l'eau </br> Chambres d'hôtes </p>
-                <p> Nuit à partir de 71euros </p>
+                <p> Nuit à partir de 71€ </p>
                 <div class="etoiles" >
                 
                     <p class="bluestar"><i class="fas fa-star"></i></p>
@@ -257,12 +265,12 @@
                 </div>
         
             </div>
-        </div>
-        <div class="blocbleu"><!-- Hotel tout bleu .. -->
-            <div class="bleu"></div>
+        </div></a>
+        <a href="#"><div class="blocbleu"><!-- Hotel tout bleu .. -->
+             <div class="bleu"></div>
             <div class="description">
                 <p class="nomHotel"> Hotel tout bleu et </br>Blanc </p>
-                <p> Nuit à partir de 68 euros </p>
+                <p> Nuit à partir de 68€ </p>
                 <div class="etoiles" >
                 
                     <p class="bluestar"><i class="fas fa-star"></i></p>
@@ -275,44 +283,45 @@
         
             </div>
         </div>
+        </a>
       </aside>
     </section>
     <!-- ---------------------------------------------------->
-    <section class="activite">
+    <section id="activite">
       <!-- Activités -->
       <h2>Activités à Marseille</h2>
       <div class="images">
       <div class="grandeimage">
-        <div class="imgvieuxport"></div>
-        <div class="descriptionbis"> Vieux Port </div>
+         <a href="#"> <div class="imgvieuxport"></div> <!-- Vieux port-->
+        <div class="descriptionbis"> Vieux Port </div></a>
       
       </div>
-      <!-- Vieux port-->
+     
       <div class="col1">
-        <div class="petiteimage">
+        <a href="#"><div class="petiteimage">
             <div class="pomegues"></div> <!--Fort de Pomègues-->
             <div class="descriptionbis"> Fort de Pomègues </div>
-        </div>
+        </div></a>
             
-        <div class="petiteimage">
+        <a href="#"><div class="petiteimage">
             <div class="frioul"></div><!-- Iles de Frioul-->
              <div class="descriptionbis"> Iles de Frioul </div>
-        </div>
+        </div></a>
       </div>
-      <div class="grandeimage"><!-- Parc national des calanques-->
+      <a href="#"><div class="grandeimage"><!-- Parc national des calanques-->
         <div class="calanques"></div>
         <div class="descriptionbis"> Parc national des calanques</div>
-      </div>
+      </div></a>
       
       <div class="col2">
-        <div class="petiteimage">
+        <a href="#"><div class="petiteimage">
             <div class="lagarde"></div><!-- Notre Dame de la garde-->
             <div class="descriptionbis"> Notre-Dame-de-la-garde </div>
-        </div>
-        <div class="petiteimage">
+        </div></a>
+        <a href="#"><div class="petiteimage">
              <div class=longchamp></div> <!-- Parc Longchamp-->
              <div class="descriptionbis"> Parc Longchamp </div>
-        </div>
+        </div></a>
        
       </div>
 
