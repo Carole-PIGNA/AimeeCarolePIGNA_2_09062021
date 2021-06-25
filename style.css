@@ -7,6 +7,7 @@
     list-style-type:none; /* enleve les puces qui se metent par defaut devant les listes*/
 
 }
+
 a,
 a:visited{
     color:black;
@@ -25,36 +26,61 @@ header{  /*  je mets en ligne le logo et le menu*/
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+  
+    
 
 
 }
 #menu{ /* tout le bloc menu est  */
     
     display:flex;
-    justify-content:space-between;
-    top: 10px;
-   padding:40px 40px 4px 10px;
+    /*justify-content:space-between;*/
+
+   
+  
    
 }   
 
 #menu1{ 
-    margin-right:30px;
+    margin-right:60px;
+    
+    border-top:2px solid #0065FC ;
+    padding-top:30px;
+    
     
     } 
+#menu1 a, #menu1 a:visited{ 
+
+    color:#0065FC;
+
+} 
+
 #menu2{ 
-    margin-right:30px;
+    margin-right:60px;
+    padding-top:30px;
     } 
 #menu3{ 
+    margin-right:30px;
+    padding-top:30px;
+       
+    } 
+
+#menu3 a, #menu3 a:visited{ 
+    
+    color:#0065FC;
+    
+   font-weight:bolder;
+   
     
     } 
 
-h2
-{
+.recherche h2{
     font-size:large;
     font-weight:bolder;
     letter-spacing:normal;
     margin-bottom: 10px;
-    margin-left:10px;
+    margin-top:30px;
+    
     
 
 }
@@ -88,6 +114,7 @@ form i{
     
 }  
 
+
 .button{
     width: 90px;
     height: 40px;
@@ -107,7 +134,7 @@ form i{
 
     }
 #titrefiltre{
-    margin-top:5px;
+    margin-top:10px;
     font-weight:bolder;
 
     }
@@ -134,7 +161,7 @@ form i{
         
         margin-left:10px;
         margin-right:20px;
-        margin-top:5px;
+        margin-top:10px;
         font-weight:bolder;
 
 
@@ -343,7 +370,7 @@ width:150px;
     background-color:white;
     padding:5px;
     border-radius:10px ;
-    margin-left:20px;
+    margin-left:10px;
     margin-bottom:2px;
     margin-top:10px;
 
@@ -406,6 +433,15 @@ width:150px;
 
 
 /* ***************  Activités  ******************************* */
+
+#activite h2{
+
+    margin-bottom:20px;
+    
+
+
+} 
+
 .imgvieuxport{
     height:370px;
    width:250px;
@@ -572,15 +608,23 @@ width:150px;
 
 /* **************  Responsive *******   */
 
-@media screen and (max-width:650px){
-#hebergement{
+/* très petits écrans */
 
-display:block;
+@media screen and (max-width:1024px){
+
+    #menu{ 
+
+        flex-wrap:wrap-reverse;
+    }
+
+
 
 }
 
-.pop{
-    width:60%;
-}
+/* tablettes 
+
+@media screen and (min-width:768px max-width:991px){
+
 
 }
+*/
