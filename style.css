@@ -26,13 +26,21 @@ header{  /*  je mets en ligne le logo et le menu*/
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-  
+    
     
 
 
 }
+
+#logo{ 
+   
+    padding-top:10px;
+    
+    
+    } 
 #menu{ /* tout le bloc menu est  */
     
+    position:relative;
     display:flex;
     /*justify-content:space-between;*/
 
@@ -459,8 +467,7 @@ width:150px;
     } 
 
     .grandeimage{
-        display:flex;
-        flex-direction:column;
+        
         display:flex;
     flex-direction:column;
     align-items:center;
@@ -498,8 +505,7 @@ width:150px;
 
 
     .petiteimage{
-        display:flex;
-        flex-direction:column;
+      
         display:flex;
     flex-direction:column;
     align-items:center;
@@ -610,21 +616,179 @@ width:150px;
 
 /* très petits écrans */
 
-@media screen and (max-width:1024px){
+@media screen and (max-width:768px){
 
-    #menu{ 
+    
+    
+    header{ 
 
-        flex-wrap:wrap-reverse;
+      flex-direction: column;  
+      
+     
+       
+    }
+
+    #logo{ 
+        position:absolute;
     }
 
 
+   #menu{ 
+
+    justify-content:left;
+    flex-wrap: wrap-reverse;
+  
+   
+      
+
+    }
+
+    #menu1{ 
+      
+        width:50%;
+        border-top:none;
+        border-bottom:2px solid blue ;
+      text-align: left;
+        padding-bottom:20px;
+      
+       
+        
+        
+
+    }
+    #menu2{ 
+        
+    
+        border-bottom: none;
+        
+        
+        
+    }
+
+   #menu3{ 
+            margin-left:80%;
+
+    }
+    .recherche h2{ 
+        border-top:2px solid #F2F2F2 ;
+        padding-top:30px;
+        margin-top: 0px;
+
+
+    }
+   
+    /* inérer l´ icone search 
+    .button{  
+        
+        ;
+
+    }*/
+
+   #lignefiltres{ 
+       flex-direction: column;
+    }
+    #listefiltres { 
+    
+        flex-wrap: wrap;
+    }
+    .filtre{
+
+        margin:15px;
+    }
+    #hebergement{
+        flex-direction:column-reverse;
+       
+        
+    }  
+    .pop{
+
+        width:100%;
+      
+    } 
+    .heberg{
+        flex-direction: column;
+        width:100%;
+        background-color: white;
+       
+
+    } 
+    #ligne1{
+        flex-direction: column;
+
+        
+    } 
+    #ligne2{
+        flex-direction: column;
+        
+        
+    } 
+    .cannebiere,.duport,.mouettes,.mer,.panier,.amina{
+        height:150px;
+        width:380px;
+       
+    } 
+    #activite{
+        flex-direction: column;
+
+        
+    } 
+
+    #activite h2{
+        margin-left:20px;
+
+    } 
+
+    .images{
+        flex-direction: column;
+       
+        
+    } 
+
+    .imgvieuxport,.pomegues,.frioul,.calanques,.lagarde,.longchamp{
+        height:150px;
+        width:380px;
+        margin-top:5px;
+        padding:5px;
+          
+    } 
+
+    .petiteimage,.grandeimage{
+      
+        width:400px;
+        border-radius: 10px;
+        
+
+
+    }
+
+    .foot{
+        flex-direction: column;
+        height:500px;
+        line-height:30px;
+      font-size: smaller;
+        
+    } 
+
+    .colb{
+        margin-right:0px;
+        margin-left:30px;
+      
+        
+    } 
+    .colc{
+        margin-right:0px;
+        margin-left:30px;
+      
+        
+    }
+
+    
 
 }
 
-/* tablettes 
+/* tablettes */
 
-@media screen and (min-width:768px max-width:991px){
+@media screen and (min-width:768px and max-width:991px){
 
 
 }
-*/
