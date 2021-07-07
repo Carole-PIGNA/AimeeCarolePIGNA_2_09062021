@@ -42,7 +42,7 @@ header{  /*  je mets en ligne le logo et le menu*/
     
     position:relative;
     display:flex;
-    /*justify-content:space-between;*/
+  
 
    
   
@@ -99,7 +99,7 @@ p{
     margin-bottom: 10px;
 }
 
-form i{
+form label i{
     padding: 10px 0px 10px 20px;
     width:50px;
     height: 40px;
@@ -119,6 +119,7 @@ form i{
     border-color: transparent;
     width: 150px;
     height: 40px;
+    padding-left:10px;
     
 }  
 
@@ -129,11 +130,30 @@ form i{
     border:#F2F2F2;
     color:white;
     background:#0065FC;
+  
     letter-spacing: 1px;  
     border-top-right-radius: 14px;
     border-bottom-right-radius: 14px;  
    
+} 
+
+
+.loupe{
+    visibility:hidden;
+    padding-right: 5px;
+    width: 50px;
+    height: 40px;
+    border:#F2F2F2;
+    color:white;
+    background:#0065FC;
+  
+    letter-spacing: 1px;  
+    border-radius: 14px;
+     
+   
 }
+
+
 
 #lignefiltres{
     display:flex;
@@ -195,6 +215,11 @@ form i{
    
 
 }
+
+#information{
+    display:flex;
+
+} 
 
 
 #info{
@@ -299,7 +324,7 @@ form i{
      } 
 
 #ligne1, #ligne2{ 
-    /*width:auto; */        
+        
     display: flex;
     
     
@@ -452,9 +477,9 @@ width:150px;
 
 .imgvieuxport{
     height:370px;
-   width:250px;
+    width:250px;
    
-    background: url(ressources/images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg) top/cover;
+    background: url(ressources/images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg)left/cover;
  
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
@@ -472,18 +497,19 @@ width:150px;
     flex-direction:column;
     align-items:center;
     background-color:white;
-    
+    padding:5px;
     border-radius:10px ;
     margin-left:5px;
     margin-bottom:10px;
     box-shadow:5px 5px 5px #F2F2F2;
         } 
+
 .pomegues{
     height:200px;
    width:250px;
    
    
-    background: url(ressources/images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg)top/cover;
+    background: url(ressources/images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg)left/cover;
    
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
@@ -495,7 +521,7 @@ width:150px;
     height:130px;
    width:250px;
 
-    background: url(ressources/images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg)top/cover;
+    background: url(ressources/images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg)left/cover;
   
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
@@ -520,11 +546,11 @@ width:150px;
     height:370px;
    width:250px;
 
-    background: url(ressources/images/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg)top/cover;
+    background: url(ressources/images/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg)left/cover;
    
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
-      background-color:white;  
+    background-color:white;  
     margin-bottom:20px;
     box-shadow:5px 5px 5px #F2F2F2;
    
@@ -533,7 +559,7 @@ width:150px;
     height:150px;
    width:250px;
 
-    background: url(ressources/images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg)top/cover;
+    background: url(ressources/images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg)left/cover;
   
   
     border-top-left-radius: 10px;
@@ -543,7 +569,7 @@ width:150px;
     height:180px;
    width:250px;
    
-    background: url(ressources/images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg)top/cover;
+    background: url(ressources/images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg)left/cover;
   
 
     border-top-left-radius: 10px;
@@ -580,7 +606,7 @@ width:150px;
 
 .foot{
     padding:0px;
-    height:200px;
+    height:300px;
     width:100%;
     display:flex;
     background-color:#F2F2F2;
@@ -612,24 +638,27 @@ width:150px;
 
 
 
-/* **************  Responsive *******   */
+/* **************  Responsive *****************************************   */
 
 /* très petits écrans */
 
-@media screen and (max-width:768px){
+@media screen and (max-width: 768px){
 
-    
-    
+
+   
+
     header{ 
 
-      flex-direction: column;  
+      flex-direction: column; 
+        
       
-     
-       
+         
     }
+    
 
     #logo{ 
         position:absolute;
+        padding-left:20px;
     }
 
 
@@ -637,8 +666,6 @@ width:150px;
 
     justify-content:left;
     flex-wrap: wrap-reverse;
-  
-   
       
 
     }
@@ -648,12 +675,10 @@ width:150px;
         width:50%;
         border-top:none;
         border-bottom:2px solid blue ;
-      text-align: left;
+        text-align: center;
         padding-bottom:20px;
+
       
-       
-        
-        
 
     }
     #menu2{ 
@@ -669,40 +694,106 @@ width:150px;
             margin-left:80%;
 
     }
+
+    body{ 
+       padding-left:0px;
+       padding-right:0px;
+        }
+
+        .recherche{ 
+            padding-left:20px;
+          
+             }
     .recherche h2{ 
         border-top:2px solid #F2F2F2 ;
         padding-top:30px;
         margin-top: 0px;
-
+        padding-right:100px;
+        font-size:large;
 
     }
-   
-    /* inérer l´ icone search 
-    .button{  
-        
-        ;
 
-    }*/
+
+form label i{
+    padding: 10px 0px 10px 30px;
+    width:60px;
+    height: 40px;
+
+
+}
+#ville{
+   
+
+    
+    width: 190px;
+    
+    
+} 
+
+.button{
+    visibility:hidden;
+    position:relative;
+    
+   
+} 
+
+
+.loupe{
+    visibility:visible;
+    position:absolute;
+    left:280px;
+     
+   
+}
 
    #lignefiltres{ 
        flex-direction: column;
+     
+        
     }
     #listefiltres { 
-    
+        margin-left:0px;
         flex-wrap: wrap;
+        
+       
     }
     .filtre{
-
-        margin:15px;
+       
+        margin:0px;
+        margin-bottom:15px;
+        margin-right:15px;
+        
+          
     }
-    #hebergement{
-        flex-direction:column-reverse;
+    .titrefiltre{
+       
+        margin:0px;
+        margin-bottom:15px;
+        margin-right:15px;
+        
+          
+    }
+
+    #information p{
+        margin-right:50px;
+        margin-left:20px;
+      
        
         
     }  
+
+    #hebergement{
+        flex-direction:column-reverse;
+        width:100%;
+       
+        
+    } 
+    
+  
     .pop{
 
         width:100%;
+        border-radius: 0px;
       
     } 
     .heberg{
@@ -723,12 +814,28 @@ width:150px;
         
     } 
     .cannebiere,.duport,.mouettes,.mer,.panier,.amina{
+        
+        margin-left:0px;   
         height:150px;
-        width:380px;
+        width:100%;
+        
+       
        
     } 
+
+    .bloccannebiere, .blocduport,.blocmouettes,.blocmer,.blocpanier,.blocamina{
+
+        padding:5px;
+        
+        margin-left:0px;
+      
+        box-shadow:0px  0px 10px #F2F2F2;
+    
+    
+       } 
     #activite{
         flex-direction: column;
+        
 
         
     } 
@@ -740,35 +847,49 @@ width:150px;
 
     .images{
         flex-direction: column;
-       
-        
-    } 
 
-    .imgvieuxport,.pomegues,.frioul,.calanques,.lagarde,.longchamp{
-        height:150px;
-        width:380px;
-        margin-top:5px;
-        padding:5px;
-          
+
+        
     } 
 
     .petiteimage,.grandeimage{
       
-        width:400px;
+        width:100%;
         border-radius: 10px;
-        
-
+        box-shadow:0px  0px 10px #F2F2F2;
+    
 
     }
 
-    .foot{
-        flex-direction: column;
-        height:500px;
-        line-height:30px;
-      font-size: smaller;
+  
+
+    .imgvieuxport,.pomegues,.frioul,.calanques,.lagarde,.longchamp{
+        width:100%;
         
+        height:150px;
+        
+        margin-top:5px;  
+        
+          
     } 
 
+    
+
+    .foot{
+        flex-direction: column;
+        margin-top:30px;
+        height:500px;
+        font-size: smaller;
+        
+    } 
+    
+
+    .cola{
+        margin-right:0px;
+        margin-left:30px;
+      
+        
+    }
     .colb{
         margin-right:0px;
         margin-left:30px;
@@ -788,7 +909,27 @@ width:150px;
 
 /* tablettes */
 
-@media screen and (min-width:768px and max-width:991px){
+@media screen and (min-width:768px) {
+
+  
+    .heberg{
+    width:auto;
+    margin-right:10px;    
+        
+    
+    }
+    .pop{
+        width:auto;   
+        margin-left:20px;     
+        
+        }
+  .foot{
+  width:100%;
+  height:auto;    
+  
+  }
 
 
 }
+
+  
