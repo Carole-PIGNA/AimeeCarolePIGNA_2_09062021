@@ -180,9 +180,16 @@ form label i{
     border:1px solid #F2F2F2;
     border-left:transparent;
     border-radius:25px ;
+    min-width:max-content;
     
 
     }
+
+    .filtre:hover{
+        
+        box-shadow:0px  0px 5px #0065FC;
+    
+        }
 
 
 .nomfiltre{
@@ -191,7 +198,7 @@ form label i{
         margin-right:20px;
         margin-top:10px;
         font-weight:bolder;
-
+        
 
     }
 
@@ -439,7 +446,8 @@ width:150px;
     background-color:#F2F2F2;
     border-radius: 10px;
     padding:20px;
-    width:60%;
+    width:auto;
+    margin-right:10px;
     
     
 
@@ -642,7 +650,35 @@ width:150px;
 
 /* très petits écrans */
 
-@media screen and (max-width: 768px){
+@media (max-width: 441px){
+  
+        #menu{ 
+            flex-direction:row; 
+            margin:0px;
+            
+        }
+        #menu1{ 
+            border-bottom: none; 
+            margin:0px; 
+            
+        }
+        #menu2{ 
+            
+            margin-left:30px; 
+            
+        }
+
+
+        #ville{ 
+              position:absolute;  
+            
+        }
+    
+
+}
+
+
+@media (max-width: 767px){
 
 
    
@@ -909,25 +945,162 @@ form label i{
 
 /* tablettes */
 
-@media screen and (min-width:768px) {
+@media (min-width:768px) and (max-width:991px){
 
-  
-    .heberg{
-    width:auto;
-    margin-right:10px;    
-        
     
-    }
-    .pop{
-        width:auto;   
-        margin-left:20px;     
+    #listefiltres{
+        flex-wrap: wrap;
         
         }
-  .foot{
-  width:100%;
-  height:auto;    
+    
+    
+    #hebergement{
+        flex-direction:column-reverse;
+        width:100%;
+       
+        
+    } 
+    .heberg{
+    width:auto;
+    
+    
+    
+    }
+
+   #ligne1{
+
+    justify-content:space-around;
+    margin-right:50px;
+    margin-left:0px;
+    
+    
+    
+    }
+        
+
+    #ligne2{
+
+    justify-content:space-around; 
+    margin-right:50px;
+    margin-left:0px;
+
+    } 
+
+        
+        
+    .pop{
+        width:auto;  
+        height: auto;
+        margin-right:10px;  
+        margin-bottom:20px;
+       justify-content:space-between;
+        
+        }
+
+        .soleil{
+            height:100px;
+            width:200px;
+           
+             border-top-left-radius: 10px;
+             border-top-right-radius: 10px;
+             border-bottom-left-radius: 0px;
+            
+             background:url(ressources/images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg) left/cover;
+             
+        
+                   
+            
+        } 
+        
+        
+        
+        
+        .eau{
+            height:100px;
+            width:200px;
+           
+             border-top-left-radius: 10px;
+             border-top-right-radius: 10px;
+             border-bottom-left-radius: 0px;
+           
+            background:url(ressources/images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg) left/cover;
+          
+          
+        } 
+        
+        
+        
+        .bleu{
+            height:100px;
+            width:200px;
+           
+             border-top-left-radius: 10px;
+             border-top-right-radius: 10px;
+             border-bottom-left-radius: 0px;
+        
+         background:url(ressources/images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg) left/cover;
+        
+        
+      
+        
+        } 
+        
+        .description{
+            text-align:left;
+            padding:10px;
+            } 
+        #lespluspop{
+            display:flex;
+            justify-content:space-around;
+            
+        } 
   
-  }
+        
+         .blocsoleil, .bloceau, .blocbleu{
+            display:flex;
+            flex-direction: column;
+            margin:10px;
+            padding-right:0px;
+             
+            } 
+
+
+.images{
+    width:auto;
+    flex-wrap: wrap;
+    justify-content: space-around;
+     
+    } 
+ 
+
+
+    .foot{
+        flex-direction: column;
+        margin-top:30px;
+        height:500px;
+        font-size: smaller;
+        
+    } 
+    
+
+    .cola{
+        margin-right:0px;
+        margin-left:30px;
+      
+        
+    }
+    .colb{
+        margin-right:0px;
+        margin-left:30px;
+      
+        
+    } 
+    .colc{
+        margin-right:0px;
+        margin-left:30px;
+      
+        
+    }
 
 
 }
