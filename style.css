@@ -229,7 +229,7 @@ form label i{
 } 
 
 
-#info{
+#information i{
     color:#0065FC;
     border:1px solid #CCC;
     border-radius: 50px;
@@ -240,6 +240,10 @@ form label i{
     
     justify-content: center;
     align-items: center;
+
+} 
+#information p{
+    margin-left:10px;
 
 } 
 
@@ -406,7 +410,6 @@ width:150px;
 
     display:flex;
     flex-direction:column;
-    align-items:left;
     background-color:white;
     padding:5px;
     border-radius:10px ;
