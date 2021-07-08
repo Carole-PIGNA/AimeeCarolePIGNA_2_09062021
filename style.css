@@ -5,7 +5,7 @@
     padding:0; /* on met tous les réglages a 0 pour commencer */
     box-sizing: border-box;
     list-style-type:none; /* enleve les puces qui se metent par defaut devant les listes*/
-
+    scroll-behavior: smooth;
 }
 
 a,
@@ -423,6 +423,7 @@ width:150px;
 
 
    } 
+
 
  .blocsoleil, .bloceau, .blocbleu{
     display:flex;
