@@ -49,19 +49,23 @@ header{  /*  je mets en ligne le logo et le menu*/
    
 }   
 
-#menu1{ 
-    margin-right:60px;
-    
-    border-top:2px solid #0065FC ;
-    padding-top:30px;
-    
-    
-    } 
-#menu1 a, #menu1 a:visited{ 
+#menu1 a:hover,#menu2 a:hover{ 
 
-    color:#0065FC;
+color:#0065FC;
+border-top:2px solid #0065FC ;
+padding-top:30px;
+
 
 } 
+
+
+#menu1{ 
+    margin-right:60px;
+    padding-top:30px;
+ 
+    
+    } 
+    
 
 #menu2{ 
     margin-right:60px;
@@ -671,6 +675,37 @@ width:150px;
             
         }
 
+        #menu1 a:hover{ 
+      
+            width:50%;
+            border-top:none;
+            border-bottom:2px solid blue ;
+          
+            padding-right:40%;
+            text-align: center;
+            padding-bottom:20px;
+    
+          
+    
+        }
+        #menu2 a:hover{ 
+
+            position:absolute;
+             width:50%;
+             border-top:none;
+             border-bottom:2px solid blue ;
+             padding-left:10%;
+             padding-right:40%;
+            
+             text-align: center;
+             padding-bottom:20px;
+             padding-top: 0;
+     
+           
+     
+         }
+     
+
 
         #ville{ 
               position:absolute;  
@@ -713,13 +748,27 @@ width:150px;
       
         width:50%;
         border-top:none;
-        border-bottom:2px solid blue ;
+        
         text-align: center;
         padding-bottom:20px;
 
       
 
     }
+    #menu1 a:hover{ 
+      
+        width:50%;
+        border-top:none;
+        border-bottom:2px solid blue ;
+        padding-left:20%;
+        padding-right:10%;
+        text-align: center;
+        padding-bottom:20px;
+
+      
+
+    }
+
     #menu2{ 
         
     
@@ -727,6 +776,23 @@ width:150px;
         
         
         
+    }
+
+    #menu2 a:hover{ 
+
+       position:absolute;
+        width:50%;
+        border-top:none;
+        border-bottom:2px solid blue ;
+        padding-left:10%;
+        padding-right:40%;
+       
+        text-align: center;
+        padding-bottom:20px;
+        padding-top: 0;
+
+      
+
     }
 
    #menu3{ 
