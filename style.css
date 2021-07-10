@@ -715,6 +715,7 @@ width:150px;
 
         .foot{ 
               margin-right:0px;  
+              width:100%;
             
             
         }
@@ -1178,19 +1179,19 @@ form label i{
 
     .cannebiere{
    
-   height:100px;
+   height:110px;
    width:auto;
 
 } 
 .duport{
    
-   height:100px;
+   height:110px;
    width:auto;
  
  } 
  .mouettes{
    
-   height:100px;
+   height:110px;
    width:auto;
 
  
@@ -1198,21 +1199,21 @@ form label i{
 
   .mer{
    
-  height:100px;
+  height:110px;
    width:auto;
   
 
 }   
 .panier{
    
-  height:100px;
+  height:110px;
    width:auto;
 
 
  } 
  .amina{
    
-   height:100px;
+   height:110px;
    width:auto;
  
  } 
@@ -1233,6 +1234,7 @@ form label i{
 
     .heberg{
     width:auto;
+    margin-right:0px;
 
     }
 
@@ -1250,11 +1252,17 @@ form label i{
           
     } 
 
- 
+ .nomHotel{
+    
+    font-size:10px;
+       
+    }
+
+
 
 
 }
-/* ********** ECRANS PLUS GRANDS  *********** */
+/* ********** ECRANS Desktops and laptops *********** */
 
 @media (min-width: 1025px){
 
@@ -1299,6 +1307,7 @@ form label i{
  
  } 
 
+
  #ligne2{ 
      margin-bottom:20px;
      } 
@@ -1317,6 +1326,101 @@ form label i{
 
     .heberg{
     width:auto;
+       
+    
+    }
+
+
+.pop{
+
+    margin-right:20px;
+    
+    
+} 
+.activite{
+
+    margin-right:10px;
+    width:auto;
+    
+    
+} 
+
+.foot{
+
+    margin-right:0px;
+    
+    width:100%;
+  
+} 
+
+
+ } 
+ 
+ 
+ /* ********** TRES GRANDS ECRANS *********** */
+ 
+ @media (min-width: 1224px){
+
+     .cannebiere{
+   
+   height:200px;
+   width:auto;
+
+} 
+.duport{
+   
+   height:200px;
+   width:auto;
+ 
+ } 
+ .mouettes{
+   
+   height:200px;
+   width:auto;
+
+ 
+ } 
+
+  .mer{
+   
+  height:200px;
+   width:auto;
+  
+
+}   
+.panier{
+   
+  height:200px;
+   width:auto;
+
+
+ } 
+ .amina{
+   
+   height:200px;
+   width:auto;
+ 
+ } 
+
+ #ligne2{ 
+     margin-bottom:20px;
+     } 
+
+#ligne1, #ligne2{ 
+        justify-content:space-around;
+
+} 
+
+
+.bloccannebiere, .blocduport,.blocmouettes,.blocmer,.blocpanier,.blocamina{
+
+        width:20rem;
+       
+
+   } 
+
+    .heberg{
+    width:auto;
     
     
     
@@ -1326,18 +1430,246 @@ form label i{
 .pop{
 
     margin-right:20px;
-    
+    justify-content:space-around;
 
     
 } 
+
+
+
+.soleil{
+    height:150px;
+    width:150px;
+    margin-bottom:20px;
+    
+     
+    
+} 
+
+
+
+
+.eau{
+   height:150px;
+   width:150px;
+   margin-bottom:20px;
+    
+} 
+
+
+
+.bleu{
+height:150px;
+width:150px;
+margin-bottom:20px;
+
+} 
+
+ 
+
+
+
 .activite{
 
     margin-right:10px;
+    width:100%;
+
     
+} 
+
+   .petiteimage,.grandeimage{
+      
+        width:100%;
+        justify-content:space-around;
+       
+    }
+
+      .imgvieuxport,.pomegues,.frioul,.calanques,.lagarde,.longchamp{
+        width:20rem;
+        
+          
+    } 
+
+.foot{
+
+    margin-right:10px;
+    width:100%;
+    justify-content:space-around;  
+    
+} 
+
+ } 
+
+
+@media (min-width : 1824px) {
+
+
+
+     .cannebiere{
+   
+   height:200px;
+   width:auto;
+
+} 
+.duport{
+   
+   height:200px;
+   width:auto;
+ 
+ } 
+ .mouettes{
+   
+   height:200px;
+   width:auto;
+
+ 
+ } 
+
+  .mer{
+   
+  height:200px;
+   width:auto;
+  
+
+}   
+.panier{
+   
+  height:200px;
+   width:auto;
+
+
+ } 
+ .amina{
+   
+   height:200px;
+   width:auto;
+ 
+ } 
+
+ #ligne2{ 
+     margin-bottom:20px;
+     } 
+
+#ligne1, #ligne2{ 
+        justify-content:space-around;
+
+} 
+
+
+.bloccannebiere, .blocduport,.blocmouettes,.blocmer,.blocpanier,.blocamina{
+
+        width:30rem;
+       
+
+   } 
+
+    .heberg{
+    width:auto;
+    
+    
+    
+    }
+
+
+.pop{
+
+    margin-right:20px;
+    justify-content:space-around;
 
     
 } 
 
 
+.soleil{
+    height:180px;
+    width:400px;
+    margin-bottom:20px;
+    
+     
+    
+} 
 
- } /* fin  */
+
+
+
+.eau{
+   height:180px;
+   width:400px;
+   margin-bottom:20px;
+    
+} 
+
+
+
+.bleu{
+height:180px;
+width:400px;
+margin-bottom:20px;
+
+} 
+
+ 
+
+
+
+.activite{
+
+    margin-right:10px;
+    width:100%;
+    justify-content:space-between;
+    
+} 
+   .petiteimage,.grandeimage{
+      
+        width:100%;
+        justify-content:space-around;
+       
+    }
+
+      .imgvieuxport,.pomegues,.frioul,.calanques,.lagarde,.longchamp{
+        width:30rem;
+        
+          
+    } 
+
+
+
+.foot{
+
+   
+    width:100%;
+   
+    
+    
+} 
+
+
+.cola{
+    margin-left:0px;
+    margin-right:0px;
+    margin-top:20px;
+    
+
+      } 
+
+.colb  {
+        margin-right:0px;
+        margin-top:20px;
+
+
+      } 
+
+ .colc  {
+
+        margin-top:20px;
+       
+
+      } 
+
+
+}
+
+
+ 
+ 
+ /* fin  */
