@@ -454,7 +454,7 @@ width:150px;
     background-color:#F2F2F2;
     border-radius: 10px;
     padding:20px;
-    width:auto;
+    width:60%;
     margin-right:10px;
     
     
@@ -712,6 +712,13 @@ width:150px;
               position:absolute;  
             
         }
+
+        .foot{ 
+              margin-right:0px;  
+            
+            
+        }
+
     
 
 }
@@ -1037,26 +1044,17 @@ form label i{
     
     }
 
-   #ligne1{
+   #ligne1,#ligne2{
 
-    justify-content:space-around;
+    justify-content:center;
     margin-right:50px;
     margin-left:0px;
-    
+    padding-left:30px;
+   
     
     
     }
-        
-
-    #ligne2{
-
-    justify-content:space-around; 
-    margin-right:50px;
-    margin-left:0px;
-
-    } 
-
-        
+     
         
     .pop{
         width:auto;  
@@ -1175,4 +1173,171 @@ form label i{
 
 }
 
+
+@media (min-width:992px) and (max-width:1024px){
+
+    .cannebiere{
+   
+   height:100px;
+   width:auto;
+
+} 
+.duport{
+   
+   height:100px;
+   width:auto;
+ 
+ } 
+ .mouettes{
+   
+   height:100px;
+   width:auto;
+
+ 
+ } 
+
+  .mer{
+   
+  height:100px;
+   width:auto;
   
+
+}   
+.panier{
+   
+  height:100px;
+   width:auto;
+
+
+ } 
+ .amina{
+   
+   height:100px;
+   width:auto;
+ 
+ } 
+
+ #ligne2{ 
+     margin-bottom:20px;
+     } 
+
+#ligne1, #ligne2{ 
+        justify-content:space-around;
+
+} 
+.bloccannebiere, .blocduport,.blocmouettes,.blocmer,.blocpanier,.blocamina{
+
+        width:10rem;
+
+   } 
+
+    .heberg{
+    width:auto;
+
+    }
+
+
+    .petiteimage,.grandeimage{
+      
+        width:100%;
+        justify-content:center;
+       
+    }
+
+      .imgvieuxport,.pomegues,.frioul,.calanques,.lagarde,.longchamp{
+        width:13rem;
+        
+          
+    } 
+
+ 
+
+
+}
+/* ********** ECRANS PLUS GRANDS  *********** */
+
+@media (min-width: 1025px){
+
+.cannebiere{
+   
+   height:100px;
+   width:auto;
+
+} 
+.duport{
+   
+   height:100px;
+   width:auto;
+ 
+ } 
+ .mouettes{
+   
+   height:100px;
+   width:auto;
+
+ 
+ } 
+
+  .mer{
+   
+  height:100px;
+   width:auto;
+  
+
+}   
+.panier{
+   
+  height:100px;
+   width:auto;
+
+
+ } 
+ .amina{
+   
+   height:100px;
+   width:auto;
+ 
+ } 
+
+ #ligne2{ 
+     margin-bottom:20px;
+     } 
+
+#ligne1, #ligne2{ 
+        justify-content:space-around;
+
+} 
+
+
+.bloccannebiere, .blocduport,.blocmouettes,.blocmer,.blocpanier,.blocamina{
+
+        width:15rem;
+
+   } 
+
+    .heberg{
+    width:auto;
+    
+    
+    
+    }
+
+
+.pop{
+
+    margin-right:20px;
+    
+
+    
+} 
+.activite{
+
+    margin-right:10px;
+    
+
+    
+} 
+
+
+
+ } /* fin  */
