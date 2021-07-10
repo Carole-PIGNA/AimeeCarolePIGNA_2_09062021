@@ -709,9 +709,19 @@ width:150px;
 
 
         #ville{ 
-              position:absolute;  
+              position:absolute; 
+              width:50px; 
             
         }
+
+
+        .loupe{ 
+              
+              margin-right:50px;
+            
+        }
+
+
 
         .foot{ 
               margin-right:0px;  
@@ -1347,9 +1357,11 @@ form label i{
 
 .foot{
 
-    margin-right:0px;
-    
-    width:100%;
+    display:flex;
+    flex-direction:row;
+    width:1100x;
+    margin-right:5px;
+   
   
 } 
 
@@ -1492,8 +1504,9 @@ margin-bottom:20px;
 
 .foot{
 
-    margin-right:10px;
-    width:100%;
+   
+   width:85rem;
+    margin-right:50rem;
     justify-content:space-around;  
     
 } 
