@@ -490,7 +490,7 @@ width:150px;
 } 
 
 .imgvieuxport picture img{
-    height:370px;
+    height:390px;
     width:250px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
@@ -553,17 +553,17 @@ width:150px;
     padding:5px;
     border-radius:10px ;
     margin-left:5px;
-    margin-bottom:10px;
+    margin-bottom:20px;
     box-shadow:5px 5px 5px #F2F2F2;
         } 
 .calanques picture img{
-    height:370px;
+    height:400px;
    width:250px;
 
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     background-color:white;  
-    margin-bottom:20px;
+    margin-bottom:10px;
     box-shadow:5px 5px 5px #F2F2F2;
     object-fit: cover;
     object-position: 50% 50%;
@@ -599,6 +599,7 @@ width:150px;
     display:flex;
     flex-direction:column;
     margin-top:30px;
+  margin-bottom:20px;
     
 
     } 
@@ -610,6 +611,8 @@ width:150px;
         margin-right:5px;
         
          } 
+
+      
 
   
 
