@@ -481,7 +481,7 @@ width:150px;
 
 /* ***************  Activités  ******************************* */
 
-#activite h1{
+#activite h2{
 
     margin-bottom:20px;
     
@@ -735,6 +735,63 @@ width:150px;
 
 
 
+.grandeimage .imgvieuxport picture img{
+    width: 100%;
+    height:150px;
+    padding-right:5px;
+    padding-left:5px;
+    
+
+    }
+   
+
+.petiteimage .pomegues picture img{
+    width:100%;
+    height:150px;
+    padding-right:5px;
+    padding-left:5px;
+    
+   
+    } 
+.petiteimage .frioul picture img{
+    width:100%;
+    height:150px;
+    padding-right:5px;
+    padding-left:5px;
+  
+    } 
+
+ 
+.grandeimage .calanques picture img{
+    width:100%;
+    height:150px;
+    padding-right:5px;
+    padding-left:5px;
+   
+    } 
+    .petiteimage .lagarde picture img{
+    width:100%;
+    height:150px;
+    padding-right:5px;
+    padding-left:5px;
+    } 
+    .petiteimage .longchamp picture img{
+  
+   width:100%;
+   height:150px;
+   padding-right:5px;
+   padding-left:5px;
+   
+    } 
+
+ 
+           .imgvieuxport,.pomegues,.frioul,.calanques,.lagarde,.longchamp{
+      
+            width: 100%;
+            
+               } 
+
+
         .foot{ 
               margin-right:0px;  
               width:100%;
@@ -976,7 +1033,7 @@ form label i{
         
     } 
 
-    #activite h1{
+    #activite h2{
         margin-left:20px;
 
     } 
@@ -999,15 +1056,62 @@ form label i{
 
   
 
-    .imgvieuxport picture img,.pomegues picture img,.frioul picture img,.calanques picture img,.lagarde picture img,.longchamp picture img{
-        width:100%;
-        
-        height:150px;
-        
-        margin-top:5px;  
-        
-          
+  
+.grandeimage .imgvieuxport picture img{
+    width: 100%;
+    height:200px;
+    padding-right:5px;
+    padding-left:5px;
+    
+
+    }
+   
+
+.petiteimage .pomegues picture img{
+    width:100%;
+    height:200px;
+    padding-right:5px;
+    padding-left:5px;
+   
     } 
+.petiteimage .frioul picture img{
+    width:100%;
+    height:200px;
+
+    padding-right:5px;
+    padding-left:5px;
+  
+    } 
+
+ 
+.grandeimage .calanques picture img{
+    width:100%;
+    height:200px;
+    padding-right:5px;
+    padding-left:5px;
+   
+    } 
+    .petiteimage .lagarde picture img{
+    width:100%;
+    height:200px;
+    padding-right:5px;
+    padding-left:5px;
+    } 
+    .petiteimage .longchamp picture img{
+  
+   width:100%;
+   height:200px;
+   padding-right:5px;
+   padding-left:5px;
+   
+    } 
+
+ 
+           .imgvieuxport,.pomegues,.frioul,.calanques,.lagarde,.longchamp{
+      
+            width: 100%;
+            
+               } 
 
     
 
