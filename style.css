@@ -1105,8 +1105,10 @@ form label i{
 .grandeimage .imgvieuxport picture img{
     width: 100%;
     height:200px;
-    padding-right:5px;
-    padding-left:5px;
+    
+    object-position: center;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
     
 
     }
@@ -1115,16 +1117,18 @@ form label i{
 .petiteimage .pomegues picture img{
     width:100%;
     height:200px;
-    padding-right:5px;
-    padding-left:5px;
+    object-position: center;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
    
     } 
 .petiteimage .frioul picture img{
     width:100%;
     height:200px;
 
-    padding-right:5px;
-    padding-left:5px;
+    object-position: center;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
   
     } 
 
@@ -1132,32 +1136,61 @@ form label i{
 .grandeimage .calanques picture img{
     width:100%;
     height:200px;
-    padding-right:5px;
-    padding-left:5px;
+    object-position: center;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
    
     } 
     .petiteimage .lagarde picture img{
     width:100%;
     height:200px;
-    padding-right:5px;
-    padding-left:5px;
+    object-position: center;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
     } 
     .petiteimage .longchamp picture img{
   
    width:100%;
    height:200px;
-   padding-right:5px;
-   padding-left:5px;
+   object-position: center;
+   border-top-left-radius: 30px;
+   border-top-right-radius: 30px;
    
     } 
 
  
-           .imgvieuxport,.pomegues,.frioul,.calanques,.lagarde,.longchamp{
+    .imgvieuxport,.pomegues,.frioul,.calanques,.lagarde,.longchamp{
       
-            width: 100%;
+        width: 100%;
+        
+      
+        border-top-left-radius: 30px;
+        border-top-right-radius: 30px;
+     
+      
+        
+        
+           } 
+           .descriptionbis{
+            
+            border-bottom-left-radius:30px;
+            border-bottom-right-radius:30px;
+            
+          
+          
             
                } 
-
+         .grandeimage,.petiteimage{
+            padding:0px;
+            
+           border:transparent;
+            width:100%;
+            box-shadow:0px  0px 30px #F2F2F2 ;
+           
+           
+    
+            
+               } 
     
 
     .foot{
